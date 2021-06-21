@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---TITLE-->
+    <title>Ella</title>
+    <!--CSS LINK -->
+    <link rel="stylesheet" href="./style.css" />
+    <!---GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!--BOOTSTRAP LINK-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!---ICON LIBRARY-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!---BODY AND NAV BAR-->
+      <nav>
+        <div class="topnav" id="my-nav-bar">
+          <a href="#about" class="about-me">About</a>
+          <a href="#skills" class="skills">Skills</a>
+          <a href="#projects" class="projects">Projects</a>
+          <a href="#contact" class="contact-me">Contact</a>
+          <a href="javascript:void(0) ;" class="icon" onclick="myFunction()">
+            <i class="bars"></i
+          ></a>
+        </div>
+      </nav>
+
+      <header>
+        <!---H1 AND H2-->
+        <h1>Hi, I'm Ella</h1>
+        <h2>I build stuff.</h2>
+      </header>
+      <!---INTRODUCTION-->
+      <main>
+        <h2 id="about">About me</h2>
+        <p>
+          I'm a curious student of full stack developer, learning how to
+          building websites and web applications. I have some knowledge about
+          C++ and C# when I was at the University. Take a look at my projects or
+          get in touch!
+        </p>
+        <h2 id="skills">Skills</h2>
+        <div class="skill-bars">
+<div class="bar">
+<div class="info">
+<span>HTML</span>
+</div>
+<div class="progress-line html">
+  <span></span>
+</div>
+</div>
+        
+        <div class="bar">
+<div class="info">
+<span>CSS</span>
+</div>
+<div class="progress-line css">
+  <span></span>
+</div>
+</div>
+        <div class="bar">
+<div class="info">
+<span>JavaScript</span>
+</div>
+<div class="progress-line java">
+  <span></span>
+</div>
+</div>
+        </div>
+      </div></div>
+        <h2 id="projects">Projects</h2>
+        <!---CARDS-->
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="./assets/weather.jpg"
+              class="card-img-top"
+              alt="simple weather page"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Weather forecast</h5>
+              <p class="card-text">
+                Weather forecast made with my initial knowledge of HTML, CSS and
+                JavaScript, it was a great advance to be able to use videos as
+                the background of this page.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">March, 2021</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Zodic.jpg"
+              class="card-img-top"
+              alt="zodiac page"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Zodiac project</h5>
+              <p class="card-text">
+                This little project was a big achievement for me, I basically
+                used HTML, CSS and JavaScript.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">April, 2021</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/greek.jpg"
+              class="card-img-top"
+              alt="greek yogurt page"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fun and Greek</h5>
+              <p class="card-text">
+                It was a delicious mix, I was able to mix my passion for yogurt
+                and my desire to apply my knowledge of HTML, CSS and JavaScript.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">April, 2021</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/band.jpg"
+              class="card-img-top"
+              alt="band fan page"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Rock fan page</h5>
+              <p class="card-text">
+                My favorite rock band when I was teenager was Linkin Park (still
+                my favorite), it was my first project at the full stack bootcamp
+                using HTML and CSS.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">May, 2021</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!---FOOTER AND ICONS-->
+        <footer id="contact">
+          <a href="#" class="fa fa-github"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </footer>
+        <script src="./app.js"></script>
+      </main>
+    </div>
+  </body>
+</html>
