@@ -4,9 +4,13 @@ I'm happy with my last update and I think learning is a journey where you should
 
 # Technologies-Libraries
 *HTML 
+
 *Bootstrap - CSS Framework
+
 *Google Fonts - Fonts
+
 *Font-Awesome - Icons
+
 *JavaScript - functionality 
 
 # Screen 
