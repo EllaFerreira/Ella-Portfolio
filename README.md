@@ -13,7 +13,7 @@ I'm happy with my last update and I think learning is a journey where you should
 
 *JavaScript - functionality 
 
-# Screen 
+# Mock-up
 
 <img width="1440" alt="Screen Shot 2021-07-31 at 5 20 57 pm" src="https://user-images.githubusercontent.com/84433857/127732287-2b02d4a6-1ff5-4972-a7fb-3368ea40cb70.png">
 
