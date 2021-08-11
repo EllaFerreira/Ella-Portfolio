@@ -6,7 +6,17 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-function DarkMode() {
-  var element = document.body;
-  element.classList.toggle("theme-switcher");
-}
+
+// function DarkMode() {
+//   var element = document.body;
+//   element.classList.toggle("theme-switcher");
+// }
+
+
+// const darkModeOn = document.querySelector(".btn");
+
+// darkModeOn.addEventListener("click", (e) => {
+//   // e.prevenDefault();
+//   document.querySelector("body").classList.add("bg-dark");
+//   document.querySelector(".topnav").style.color = "#ffff";
+// });

@@ -9,10 +9,14 @@ html {
   scroll-behavior: auto !important;
 }
 body {
-  color: black;
+  color: rgb(8, 6, 7);
   background-color: #fff;
   display: block;
 }
+/* .bg-dark {
+  background-color: rgb(8, 6, 7);
+  color: #f0f0f0;
+} */
 .container {
   max-width: 100vw;
   max-height: 100vw;
@@ -75,6 +79,12 @@ button {
   text-align: center;
 }
 
+/* THEME
+.theme-switcher {
+  background-color: #000;
+  color: #fff;
+} */
+
 /* NAV BAR */
 .topnav {
   overflow: hidden;
@@ -92,7 +102,7 @@ button {
 .topnav a:hover {
   background-color: rgb(8, 6, 7);
   color: white;
-  opacity: 1.5;
+  opacity: 1;
 }
 .topnav a.active {
   background-color: black;
@@ -100,15 +110,6 @@ button {
 }
 .topnav .icon {
   display: none;
-}
-.tapnav .theme-switcher {
-  color: #fff;
-}
-
-/* THEME */
-.theme-switcher {
-  background-color: #000;
-  color: #fff;
 }
 
 @media screen and(max-width: 600px) {
@@ -254,7 +255,7 @@ body {
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #2da042;
+  background: #6665ee;
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 .bar .progress-line.html span {
@@ -309,6 +310,7 @@ body {
 }
 
 /* MEDIA QUERIES */
+
 /* @media screen and (max-width: 800px) {
   body {
     padding: 0.5rem;
