@@ -5,20 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!---TITLE-->
     <title>Ella</title>
-
-    <!--CSS LINK -->
     <link rel="stylesheet" href="./assets/style.css" />
 
-    <!--GOOGLE FONTS-->
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
 
-    <!--BOOTSTRAP LINK-->
+    <!--Boostrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,15 +23,15 @@
       crossorigin="anonymous"
     />
 
-    <!---ICON LIBRARY-->
+    <!---Icons-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
-    <!---BODY AND NAV BAR-->
     <div class="container">
+      <!--Navbar-->
       <nav>
         <div class="topnav" id="my-nav-bar">
           <a href="./about.html" class="contact-me">Contact</a>
@@ -46,15 +43,15 @@
           ></a>
         </div>
       </nav>
-      <!-- <button
+      <button
         type="button"
         class="btn btn-outline-dark"
         id="theme-switcher"
         onclick="DarkMode()"
       >
         Switch themes!
-      </button> -->
-
+      </button>
+  <!--Header-->
       <header>
         <h1>Hi, I'm <span>Ella</span></h1>
         <h1>
@@ -62,10 +59,154 @@
           <span>Brisbane, Australia</span>.
         </h1>
       </header>
-    </div>
-    <main>
-      <!---FOOTER AND ICONS-->
-      <footer>
+      <!-- About me -->
+
+      <h2 id="about">About me</h2>
+        
+        <div class="container">
+          <p>
+            I am an open, responsive and passionate team player. A considerate
+            and compassionate coder viewing software development as a craft
+            where interactions with people matter and
+            <em>communication skills are required for success</em>.
+          </p>
+        </div>
+        <hr />
+    <!-- Skill progress bar-->
+
+    <h2 id="skills">Skills</h2>
+        
+        <div class="skill-bars">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <span>JavaScript</span>
+            </div>
+            <div class="progress-line java">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <span>Node.js</span>
+            </div>
+            <div class="progress-line node">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <span>MySQL</span>
+            </div>
+            <div class="progress-line mysql">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+
+    <!-- Project Cards -->
+
+    <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Weather forecast, July 2021</h5>
+                <p class="card-text">
+                  A simple web application that allows users to search for a city to get the current weather and 5 day forecast. Cities that users previously looked up will be saved in their local storage. This web application was created using HTML, CSS, JavaScript, and jQuery. 
+                  The Bulma CSS framework was used for styling the application. The OpenWeather API was used to retrieve weather information for this application. Moment.js was used to parse time and date information.
+                </p>
+                <a
+                  href=" https://ellaferreira.github.io/Weather-Dashboard-Bootcamp/"
+                  class="btn btn-dark"
+                  target="_blank"
+                  >Check it out!</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Weekday Planner, June 2021</h5>
+                <p class="card-text">
+                  Time management plays an important role in the life of a Web
+                  Developer. As a person with a very busy schedule I decided to
+                  build this daily planner to help me keep on track with my
+                  daily tasks. It's an application built with HTML, CSS and
+                  Jquery . The texts areas change color according to the time of
+                  the day.
+                </p>
+                <a
+                  href=" https://ellaferreira.github.io/DayPlanner-Bootcamp/"
+                  class="btn btn-dark"
+                  target="_blank"
+                  >Check it out!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Actor Lookup Movie, July 2021</h5>
+                <p class="card-text">
+                  We made an actor based movie lookup web app, our choice of API was IMbd, as CSS library Materialize and JavaScript was the biggest star ⭐️ .
+                  Provide one or two actors and see a list of movies to watch and some meta details.
+                </p>
+                <a href="https://fonyx.github.io/actorLookup/" class="btn btn-dark" target="_blank"
+                  >Check it out!</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript Quiz, June 2021</h5>
+                <p class="card-text">
+                  Mixing javascript with fun, a quiz to train your knowledge,
+                  using local storage to visualize the points. Have fun!
+                </p>
+                <a
+                  href="https://ellaferreira.github.io/Quizz-Bootcamp/"
+                  class="btn btn-dark"
+                  target="_blank"
+                  >Check it out!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <!---Footer-->
+
+      
         <div class="footer" id="contact">
           <a
             href="https://github.com/EllaFerreira"
@@ -88,10 +229,17 @@
             class="fa fa-twitter"
             target="_blank"
           ></a>
+          <a
+            href=""
+            class="fa fa-slack"
+            target="_blank"
+          ></a>
         </div>
-      </footer>
-      <!-- SCRIPT -->
+      
+      <!-- Script -->
+
       <script src="./assets/app.js"></script>
+    </div>
     </main>
   </body>
 </html>
