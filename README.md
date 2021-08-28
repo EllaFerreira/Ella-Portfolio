@@ -1,4 +1,4 @@
-# Ella-Portfolio
+# Ella-Portfolio 👩🏻‍💻
 
 I'm a firm believer in keeping things simple and I try to keep things as minimal as I can, but sometimes that slips away. 
 I'm happy with my last update and I think learning is a journey where you should put yourself out of the confort zone.
@@ -26,6 +26,12 @@ I'm happy with my last update and I think learning is a journey where you should
 - [Google Fonts](https://fonts.google.com/)  
 
 # Mock-up
+
+
+
+
+
+https://user-images.githubusercontent.com/84433857/131210724-af8f47e5-974d-41bf-a0ee-bb4318045849.mov
 
 
 
