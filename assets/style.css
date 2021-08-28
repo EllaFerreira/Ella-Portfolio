@@ -50,6 +50,7 @@ h1 span {
   );
   font-size: 73px;
   -webkit-background-clip: text;
+
   color: transparent;
   background-size: 400%;
   animation: gradient 10s linear infinite alternate;
