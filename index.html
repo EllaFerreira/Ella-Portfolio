@@ -32,26 +32,28 @@
   <body>
     <div class="container">
       <!--Navbar-->
-      <nav>
+
+      <nav class="topnav navbar navbar-expand-lg navbar bg">
         <div class="topnav" id="my-nav-bar">
-          <a href="./about.html" class="contact-me">Contact</a>
-          <a href="./about.html" class="about-me">About</a>
-          <a href="./about.html" class="projects">Projects</a>
-          <a href="./about.html" class="skills">Skills</a>
+          <a href="#contact" class="contact-me">Contact</a>
+          <a href="#about" class="about-me">About</a>
+          <a href="#projects" class="projects">Projects</a>
+          <a href="#skills" class="skills">Skills</a>
           <a href="javascript:void(0) ;" class="icon" onclick="myFunction()">
             <i class="bars"></i
           ></a>
         </div>
       </nav>
-      <button
+
+      <!-- <button
         type="button"
         class="btn btn-outline-dark"
         id="theme-switcher"
         onclick="DarkMode()"
       >
         Switch themes!
-      </button>
-  <!--Header-->
+      </button> -->
+      <!--Header-->
       <header>
         <h1>Hi, I'm <span>Ella</span></h1>
         <h1>
@@ -59,27 +61,28 @@
           <span>Brisbane, Australia</span>.
         </h1>
       </header>
-      <!-- About me -->
 
-      <h2 id="about">About me</h2>
-        
-        <div class="container">
-          <p>
-            I am an open, responsive and passionate team player. A considerate
-            and compassionate coder viewing software development as a craft
-            where interactions with people matter and
-            <em>communication skills are required for success</em>.
-          </p>
-        </div>
+      <!-- <section class="about section" id="about">
+        <h2 id="about"></h2> -->
+
+      <div class="container">
+        <p>
+          I am an open, responsive and passionate team player. A considerate and
+          compassionate coder viewing software development as a craft where
+          interactions with people matter and
+          <em>communication skills are required for success</em>.
+        </p>
+
         <hr />
-    <!-- Skill progress bar-->
 
-    <h2 id="skills">Skills</h2>
-        
+        <!-- Skill progress bar-->
+
+        <h2 id="skills">Skills</h2>
+
         <div class="skill-bars">
           <div class="bar">
             <div class="info">
-              <span>HTML</span>
+              <span>HTML5</span>
             </div>
             <div class="progress-line html">
               <span></span>
@@ -88,7 +91,7 @@
 
           <div class="bar">
             <div class="info">
-              <span>CSS</span>
+              <span>CSS3</span>
             </div>
             <div class="progress-line css">
               <span></span>
@@ -125,17 +128,22 @@
 
         <hr />
 
+        <!-- Project Cards -->
 
-    <!-- Project Cards -->
-
-    <div class="row">
+        <div class="row">
           <div class="col-sm-12 col-md-6">
-            <div class="card">
+            <div class="card" id="projects">
               <div class="card-body">
                 <h5 class="card-title">Weather forecast, July 2021</h5>
                 <p class="card-text">
-                  A simple web application that allows users to search for a city to get the current weather and 5 day forecast. Cities that users previously looked up will be saved in their local storage. This web application was created using HTML, CSS, JavaScript, and jQuery. 
-                  The Bulma CSS framework was used for styling the application. The OpenWeather API was used to retrieve weather information for this application. Moment.js was used to parse time and date information.
+                  A simple web application that allows users to search for a
+                  city to get the current weather and 5 day forecast. Cities
+                  that users previously looked up will be saved in their local
+                  storage. This web application was created using HTML, CSS,
+                  JavaScript, and jQuery. The Bulma CSS framework was used for
+                  styling the application. The OpenWeather API was used to
+                  retrieve weather information for this application. Moment.js
+                  was used to parse time and date information.
                 </p>
                 <a
                   href=" https://ellaferreira.github.io/Weather-Dashboard-Bootcamp/"
@@ -175,10 +183,15 @@
               <div class="card-body">
                 <h5 class="card-title">Actor Lookup Movie, July 2021</h5>
                 <p class="card-text">
-                  We made an actor based movie lookup web app, our choice of API was IMbd, as CSS library Materialize and JavaScript was the biggest star ⭐️ .
-                  Provide one or two actors and see a list of movies to watch and some meta details.
+                  We made an actor based movie lookup web app, our choice of API
+                  was IMbd, as CSS library Materialize and JavaScript was the
+                  biggest ⭐️ . Provide one or two actors and see a list of
+                  movies to watch and some meta details.
                 </p>
-                <a href="https://fonyx.github.io/actorLookup/" class="btn btn-dark" target="_blank"
+                <a
+                  href="https://fonyx.github.io/actorLookup/"
+                  class="btn btn-dark"
+                  target="_blank"
                   >Check it out!</a
                 >
               </div>
@@ -203,43 +216,39 @@
             </div>
           </div>
         </div>
-        </div>
-      <!---Footer-->
 
-      
-        <div class="footer" id="contact">
-          <a
-            href="https://github.com/EllaFerreira"
-            rel="noopener noreferrer"
-            class="fa fa-github"
-            target="_blank"
-          ></a>
-          <a
-            href="https://www.linkedin.com/feed/"
-            class="fa fa-linkedin"
-            target="_blank"
-          ></a>
-          <a
-            href="mailto:ella.tmferreira@gmail.com"
-            class="fa fa-envelope"
-            target="_blank"
-          ></a>
-          <a
-            href="https://twitter.com/EllaFerreira8"
-            class="fa fa-twitter"
-            target="_blank"
-          ></a>
-          <a
-            href=""
-            class="fa fa-slack"
-            target="_blank"
-          ></a>
-        </div>
-      
-      <!-- Script -->
+        <!---Footer-->
 
-      <script src="./assets/app.js"></script>
+        <footer>
+          <div class="footer" id="contact">
+            <a
+              href="https://github.com/EllaFerreira"
+              rel="noopener noreferrer"
+              class="fa fa-github"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.linkedin.com/feed/"
+              class="fa fa-linkedin"
+              target="_blank"
+            ></a>
+            <a
+              href="mailto:ella.tmferreira@gmail.com"
+              class="fa fa-envelope"
+              target="_blank"
+            ></a>
+            <a
+              href="https://twitter.com/EllaFerreira8"
+              class="fa fa-twitter"
+              target="_blank"
+            ></a>
+          </div>
+        </footer>
+
+        <!-- Script -->
+
+        <script src="./assets/app.js"></script>
+      </div>
     </div>
-    </main>
   </body>
 </html>
