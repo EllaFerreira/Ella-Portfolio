@@ -21,14 +21,13 @@ I'm happy with my last update and I think learning is a journey where you should
 
 # Technologies-Libraries
 
-- [Bootstrap](https://getbootstrap.com/) - CSS Framework
+- [Bootstrap](https://getbootstrap.com/) 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 - [Google Fonts](https://fonts.google.com/)  
 
 # Mock-up
 
-<img width="1440" alt="Screen Shot 2021-07-31 at 5 20 57 pm" src="https://user-images.githubusercontent.com/84433857/127732287-2b02d4a6-1ff5-4972-a7fb-3368ea40cb70.png">
 
 
-# Access the page here: 
-https://ellaferreira.github.io/Ella-Portfolio/
+
+# Access my page here: https://ellaferreira.github.io/Ella-Portfolio/
