@@ -6,6 +6,13 @@ I'm happy with my last update and I think learning is a journey where you should
 ## Deployed Link 
 [click here](https://ellaferreira.github.io/Ella-Portfolio/)
 
+
+## Mock-up
+
+
+![image](https://user-images.githubusercontent.com/84433857/133914946-eae0488f-55a2-4a2d-9ca0-d7f218eae75c.png)
+
+
 ## Acceptance Criteria
 
 ```md
@@ -29,13 +36,7 @@ I'm happy with my last update and I think learning is a journey where you should
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 - [Google Fonts](https://fonts.google.com/)  
 
-## Mock-up
 
-
-
-
-
-https://user-images.githubusercontent.com/84433857/131210724-af8f47e5-974d-41bf-a0ee-bb4318045849.mov
 
 
 
