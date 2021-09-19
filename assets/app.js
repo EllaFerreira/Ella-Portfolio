@@ -1,13 +1,19 @@
 //Navbar function to add responsive to it
 
-function myFunction() {
-  var x = document.getElementById("my-nav-bar");
-  if (x.className === "topnav") {
-    x.className += "responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+
+const hamburguer = document.querySelector(".hamburguer");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburguer.addEventListener("click", () => {
+  hamburguer.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburguer.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
 
 //Dark Mode btn function
 
